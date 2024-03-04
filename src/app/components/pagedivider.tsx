@@ -1,3 +1,5 @@
+
+'use client'
 import { Card } from "@/components/ui/card";
 import {
   ResizableHandle,
@@ -5,6 +7,10 @@ import {
   ResizablePanelGroup,
 } from "../../components/ui/divider";
 import { Button } from "@/components/ui/button";
+import { Popover } from "@/components/ui/popover";
+import { Dialog } from "@radix-ui/react-dialog";
+import {  DrawerDemo } from "./solardetails";
+import { InfiniteMovingCardsDemo } from "./infinite";
 
 
 const  solarDetails= [
@@ -54,15 +60,20 @@ const  solarDetails= [
 
 
 export default function ResizableDemo() {
+
+   
   return (
     <div className="flex rounded-lg border">
       <div className="flex w-96 mx-4 bg-slate-100  h-[800px] items-center justify-center p-6">
         <span className="font-semibold">One</span>
+        <Popover/>
       </div>
       <div className="grid">
         <div className="flex rounded-[54px] bg-[#09131F] h-full w-[768px] grid grid-cols-2 gap-16 items-center justify-center p-16">
           {solarDetails.map((item: any) => (
+  
             <Card className="flex w-72 h-40 rounded-[30px]  p-5">
+              <DrawerDemo/>  
               {" "}
               <img src={item.unsplash_url} className="w-20 h-28 rounded-[20px] border border-black"/>
               {/* <p className="font-medium"></p> */}
@@ -80,19 +91,20 @@ export default function ResizableDemo() {
                 Reliability : {item.reliability}
                 </p>
                 </div>
-            </Card>
+            </Card> 
           ))}
         </div>
         <Button
-          className="w-56 bg-[#09131F] rounded-xl text-white my-4"
+          className="w-56  rounded-xl text-white my-4"
           size={"sm"}
           variant={"default"}
         >
           Compare
         </Button>
         <div>
-          <div className="flex h-full items-center justify-center p-6">
-            <span className="font-semibold">Three</span>
+        <div className="slideshow bg-[#09131F] flex h-full items-center justify-center p-6">
+ 
+            <InfiniteMovingCardsDemo/>
           </div>
         </div>
       </div>
