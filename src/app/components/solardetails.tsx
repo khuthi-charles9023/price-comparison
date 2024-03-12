@@ -66,13 +66,13 @@ export function DrawerDemo() {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button variant="outline">Open Drawer</Button>
+        <Button variant="outline">Buy Options</Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
           <DrawerHeader>
-            <DrawerTitle>Move Goal</DrawerTitle>
-            <DrawerDescription>Set your daily activity goal.</DrawerDescription>
+            <DrawerTitle>Choose the best deal</DrawerTitle>
+            <DrawerDescription>AdanianLabs Solar</DrawerDescription>
           </DrawerHeader>
           <div className="p-4 pb-0">
             <div className="flex items-center justify-center space-x-2">
@@ -91,7 +91,7 @@ export function DrawerDemo() {
                   {goal}
                 </div>
                 <div className="text-[0.70rem] uppercase text-muted-foreground">
-                  Calories/day
+                  Watts
                 </div>
               </div>
               <Button
