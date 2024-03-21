@@ -19,10 +19,10 @@ export function InfiniteMovingCardsDemo() {
       image: "https://images.unsplash.com/photo-1631771819642-90cee9a2ccac?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      image: "https://plus.unsplash.com/premium_photo-1680206586349-ddf92488bbbe?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://media.istockphoto.com/id/1410056529/photo/3d-rendering-of-solar-panels-isolated-from-the-background-with-copy-space.jpg?s=1024x1024&w=is&k=20&c=bz3CbvOpUwbFn_d9oG3emHjUfdPfphD5BpfjmOc-cJ8=",
     },
     {
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://media.istockphoto.com/id/1455169709/photo/solar-panels-reflect-sparkling-light-and-golden-sky-clean-energy-and-environment.jpg?s=1024x1024&w=is&k=20&c=K2B4UNS7aIXex6sp5uEk9eduxAzmHgq3Klel-_ADW4o=",
     },
   ];
 
