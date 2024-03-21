@@ -66,7 +66,7 @@ export default function ResizableDemo() {
           <Popover />
         </div>
       </div> */}
-      <div className="grid gap-8 grid-cols-2 p-8">
+      <div className="grid gap-8 grid-cols-2 p-8 bg-black">
         {solarDetails.map((item: any, index: number) => (
            <Card key={index} className="relative flex w-full h-60 rounded-lg p-4 shadow-md">
            <div className="flex-shrink-0 w-1/3">
