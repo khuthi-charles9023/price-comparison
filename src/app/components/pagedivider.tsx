@@ -11,6 +11,8 @@ import {  DrawerDemo } from "./solardetails";
 import { InfiniteMovingCardsDemo } from "./infinite";
 
 
+
+
 const  solarDetails= [
   {
       "name": "SunPower Maxeon 5",
@@ -58,6 +60,7 @@ const  solarDetails= [
 
 
 export default function ResizableDemo() {
+ 
   return (
     <div className="flex flex-col rounded-lg border">
       {/* <div className="flex w-full mx-4 bg-slate-100 h-[800px] items-center justify-center p-6">
@@ -91,6 +94,7 @@ export default function ResizableDemo() {
         className="w-56 bg-[#397dd1] rounded-xl text-white my-4"
         size="sm"
         variant="default"
+        
       >
         Compare
       </Button>
@@ -104,3 +108,5 @@ export default function ResizableDemo() {
     </div>
   );
 }
+
+
